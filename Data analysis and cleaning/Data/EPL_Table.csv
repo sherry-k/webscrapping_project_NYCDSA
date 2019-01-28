@@ -1,0 +1,441 @@
+Club,Goal_Difference,Points,Position,Season
+Liverpool,41,60,1,18/19
+Man City,45,56,2,18/19
+Spurs,25,51,3,18/19
+Chelsea,21,47,4,18/19
+Arsenal,16,44,5,18/19
+Man Utd,13,44,6,18/19
+Watford,0,33,7,18/19
+Wolves,-4,32,8,18/19
+Leicester,0,31,9,18/19
+West Ham,-4,31,10,18/19
+Everton,1,30,11,18/19
+Bournemouth,-9,30,12,18/19
+Brighton,-7,26,13,18/19
+Crystal Palace,-9,22,14,18/19
+Southampton,-15,22,15,18/19
+Burnley,-20,22,16,18/19
+Newcastle,-12,21,17,18/19
+Cardiff,-25,19,18,18/19
+Fulham,-30,14,19,18/19
+Huddersfield,-27,11,20,18/19
+Man City,79,100,1,17/18
+Man Utd,40,81,2,17/18
+Spurs,38,77,3,17/18
+Liverpool,46,75,4,17/18
+Chelsea,24,70,5,17/18
+Arsenal,23,63,6,17/18
+Burnley,-3,54,7,17/18
+Everton,-14,49,8,17/18
+Leicester,-4,47,9,17/18
+Newcastle,-8,44,10,17/18
+Crystal Palace,-10,44,11,17/18
+Bournemouth,-16,44,12,17/18
+West Ham,-20,42,13,17/18
+Watford,-20,41,14,17/18
+Brighton,-20,40,15,17/18
+Huddersfield,-30,37,16,17/18
+Southampton,-19,36,17,17/18
+Swansea,-28,33,18,17/18
+Stoke City,-33,33,19,17/18
+West Brom,-25,31,20,17/18
+Chelsea,52,93,1,16/17
+Spurs,60,86,2,16/17
+Man City,41,78,3,16/17
+Liverpool,36,76,4,16/17
+Arsenal,33,75,5,16/17
+Man Utd,25,69,6,16/17
+Everton,18,61,7,16/17
+Southampton,-7,46,8,16/17
+Bournemouth,-12,46,9,16/17
+West Brom,-8,45,10,16/17
+West Ham,-17,45,11,16/17
+Leicester,-15,44,12,16/17
+Stoke City,-15,44,13,16/17
+Crystal Palace,-13,41,14,16/17
+Swansea,-25,41,15,16/17
+Burnley,-16,40,16,16/17
+Watford,-28,40,17,16/17
+Hull City,-43,34,18,16/17
+Middlesbrough,-26,28,19,16/17
+Sunderland,-40,24,20,16/17
+Leicester,32,81,1,15/16
+Arsenal,29,71,2,15/16
+Spurs,34,70,3,15/16
+Man City,30,66,4,15/16
+Man Utd,14,66,5,15/16
+Southampton,18,63,6,15/16
+West Ham,14,62,7,15/16
+Liverpool,13,60,8,15/16
+Stoke City,-14,51,9,15/16
+Chelsea,6,50,10,15/16
+Everton,4,47,11,15/16
+Swansea,-10,47,12,15/16
+Watford,-10,45,13,15/16
+West Brom,-14,43,14,15/16
+Crystal Palace,-12,42,15,15/16
+Bournemouth,-22,42,16,15/16
+Sunderland,-14,39,17,15/16
+Newcastle,-21,37,18,15/16
+Norwich,-28,34,19,15/16
+Aston Villa,-49,17,20,15/16
+Chelsea,41,87,1,14/15
+Man City,45,79,2,14/15
+Arsenal,35,75,3,14/15
+Man Utd,25,70,4,14/15
+Spurs,5,64,5,14/15
+Liverpool,4,62,6,14/15
+Southampton,21,60,7,14/15
+Swansea,-3,56,8,14/15
+Stoke City,3,54,9,14/15
+Crystal Palace,-4,48,10,14/15
+Everton,-2,47,11,14/15
+West Ham,-3,47,12,14/15
+West Brom,-13,44,13,14/15
+Leicester,-9,41,14,14/15
+Newcastle,-23,39,15,14/15
+Sunderland,-22,38,16,14/15
+Aston Villa,-26,38,17,14/15
+Hull City,-18,35,18,14/15
+Burnley,-25,33,19,14/15
+QPR,-31,30,20,14/15
+Man City,65,86,1,13/14
+Liverpool,51,84,2,13/14
+Chelsea,44,82,3,13/14
+Arsenal,27,79,4,13/14
+Everton,22,72,5,13/14
+Spurs,4,69,6,13/14
+Man Utd,21,64,7,13/14
+Southampton,8,56,8,13/14
+Stoke City,-7,50,9,13/14
+Newcastle,-16,49,10,13/14
+Crystal Palace,-15,45,11,13/14
+Swansea,0,42,12,13/14
+West Ham,-11,40,13,13/14
+Sunderland,-19,38,14,13/14
+Aston Villa,-22,38,15,13/14
+Hull City,-15,37,16,13/14
+West Brom,-16,36,17,13/14
+Norwich,-34,33,18,13/14
+Fulham,-45,32,19,13/14
+Cardiff,-42,30,20,13/14
+Man Utd,43,89,1,12/13
+Man City,32,78,2,12/13
+Chelsea,36,75,3,12/13
+Arsenal,35,73,4,12/13
+Spurs,20,72,5,12/13
+Everton,15,63,6,12/13
+Liverpool,28,61,7,12/13
+West Brom,-4,49,8,12/13
+Swansea,-4,46,9,12/13
+West Ham,-8,46,10,12/13
+Norwich,-17,44,11,12/13
+Fulham,-10,43,12,12/13
+Stoke City,-11,42,13,12/13
+Southampton,-11,41,14,12/13
+Aston Villa,-22,41,15,12/13
+Newcastle,-23,41,16,12/13
+Sunderland,-13,39,17,12/13
+Wigan,-26,36,18,12/13
+Reading,-30,28,19,12/13
+QPR,-30,25,20,12/13
+Man City,64,89,1,11/12
+Man Utd,56,89,2,11/12
+Arsenal,25,70,3,11/12
+Spurs,25,69,4,11/12
+Newcastle,5,65,5,11/12
+Chelsea,19,64,6,11/12
+Everton,10,56,7,11/12
+Liverpool,7,52,8,11/12
+Fulham,-3,52,9,11/12
+West Brom,-7,47,10,11/12
+Swansea,-7,47,11,11/12
+Norwich,-14,47,12,11/12
+Sunderland,-1,45,13,11/12
+Stoke City,-17,45,14,11/12
+Wigan,-20,43,15,11/12
+Aston Villa,-16,38,16,11/12
+QPR,-23,37,17,11/12
+Bolton,-31,36,18,11/12
+Blackburn,-30,31,19,11/12
+Wolves,-42,25,20,11/12
+Man Utd,41,80,1,10/11
+Chelsea,36,71,2,10/11
+Man City,27,71,3,10/11
+Arsenal,29,68,4,10/11
+Spurs,9,62,5,10/11
+Liverpool,15,58,6,10/11
+Everton,6,54,7,10/11
+Fulham,6,49,8,10/11
+Aston Villa,-11,48,9,10/11
+Sunderland,-11,47,10,10/11
+West Brom,-15,47,11,10/11
+Newcastle,-1,46,12,10/11
+Stoke City,-2,46,13,10/11
+Bolton,-4,46,14,10/11
+Blackburn,-13,43,15,10/11
+Wigan,-21,42,16,10/11
+Wolves,-20,40,17,10/11
+Birmingham,-21,39,18,10/11
+Blackpool,-23,39,19,10/11
+West Ham,-27,33,20,10/11
+Chelsea,71,86,1,09/10
+Man Utd,58,85,2,09/10
+Arsenal,42,75,3,09/10
+Spurs,26,70,4,09/10
+Man City,28,67,5,09/10
+Aston Villa,13,64,6,09/10
+Liverpool,26,63,7,09/10
+Everton,11,61,8,09/10
+Birmingham,-9,50,9,09/10
+Blackburn,-14,50,10,09/10
+Stoke City,-14,47,11,09/10
+Fulham,-7,46,12,09/10
+Sunderland,-8,44,13,09/10
+Bolton,-25,39,14,09/10
+Wolves,-24,38,15,09/10
+Wigan,-42,36,16,09/10
+West Ham,-19,35,17,09/10
+Burnley,-40,30,18,09/10
+Hull City,-41,30,19,09/10
+Portsmouth,-32,19,20,09/10
+Man Utd,44,90,1,08/09
+Liverpool,50,86,2,08/09
+Chelsea,44,83,3,08/09
+Arsenal,31,72,4,08/09
+Everton,18,63,5,08/09
+Aston Villa,6,62,6,08/09
+Fulham,5,53,7,08/09
+Spurs,0,51,8,08/09
+West Ham,-3,51,9,08/09
+Man City,8,50,10,08/09
+Wigan,-11,45,11,08/09
+Stoke City,-17,45,12,08/09
+Bolton,-12,41,13,08/09
+Portsmouth,-19,41,14,08/09
+Blackburn,-20,41,15,08/09
+Sunderland,-20,36,16,08/09
+Hull City,-25,35,17,08/09
+Newcastle,-19,34,18,08/09
+Middlesbrough,-29,32,19,08/09
+West Brom,-31,32,20,08/09
+Man Utd,58,87,1,07/08
+Chelsea,39,85,2,07/08
+Arsenal,43,83,3,07/08
+Liverpool,39,76,4,07/08
+Everton,22,65,5,07/08
+Aston Villa,20,60,6,07/08
+Blackburn,2,58,7,07/08
+Portsmouth,8,57,8,07/08
+Man City,-8,55,9,07/08
+West Ham,-8,49,10,07/08
+Spurs,5,46,11,07/08
+Newcastle,-20,43,12,07/08
+Middlesbrough,-10,42,13,07/08
+Wigan,-17,40,14,07/08
+Sunderland,-23,39,15,07/08
+Bolton,-18,37,16,07/08
+Fulham,-22,36,17,07/08
+Reading,-25,36,18,07/08
+Birmingham,-16,35,19,07/08
+Derby,-69,11,20,07/08
+Man Utd,56,89,1,06/07
+Chelsea,40,83,2,06/07
+Liverpool,30,68,3,06/07
+Arsenal,28,68,4,06/07
+Spurs,3,60,5,06/07
+Everton,16,58,6,06/07
+Bolton,-5,56,7,06/07
+Reading,5,55,8,06/07
+Portsmouth,3,54,9,06/07
+Blackburn,-2,52,10,06/07
+Aston Villa,2,50,11,06/07
+Middlesbrough,-5,46,12,06/07
+Newcastle,-9,43,13,06/07
+Man City,-15,42,14,06/07
+West Ham,-24,41,15,06/07
+Fulham,-22,39,16,06/07
+Wigan,-22,38,17,06/07
+Sheffield Utd.,-23,38,18,06/07
+Charlton,-26,34,19,06/07
+Watford,-30,28,20,06/07
+Chelsea,50,91,1,05/06
+Man Utd,38,83,2,05/06
+Liverpool,32,82,3,05/06
+Arsenal,37,67,4,05/06
+Spurs,15,65,5,05/06
+Blackburn,9,63,6,05/06
+Newcastle,5,58,7,05/06
+Bolton,8,56,8,05/06
+West Ham,-3,55,9,05/06
+Wigan,-7,51,10,05/06
+Everton,-15,50,11,05/06
+Fulham,-10,48,12,05/06
+Charlton,-14,47,13,05/06
+Middlesbrough,-10,45,14,05/06
+Man City,-5,43,15,05/06
+Aston Villa,-13,42,16,05/06
+Portsmouth,-25,38,17,05/06
+Birmingham,-22,34,18,05/06
+West Brom,-27,30,19,05/06
+Sunderland,-43,15,20,05/06
+Chelsea,57,95,1,04/05
+Arsenal,51,83,2,04/05
+Man Utd,32,77,3,04/05
+Everton,-1,61,4,04/05
+Liverpool,11,58,5,04/05
+Bolton,5,58,6,04/05
+Middlesbrough,7,55,7,04/05
+Man City,8,52,8,04/05
+Spurs,6,52,9,04/05
+Aston Villa,-7,47,10,04/05
+Charlton,-16,46,11,04/05
+Birmingham,-6,45,12,04/05
+Fulham,-8,44,13,04/05
+Newcastle,-10,44,14,04/05
+Blackburn,-11,42,15,04/05
+Portsmouth,-16,39,16,04/05
+West Brom,-25,34,17,04/05
+Crystal Palace,-21,33,18,04/05
+Norwich,-35,33,19,04/05
+Southampton,-21,32,20,04/05
+Arsenal,47,90,1,03/04
+Chelsea,37,79,2,03/04
+Man Utd,29,75,3,03/04
+Liverpool,18,60,4,03/04
+Newcastle,12,56,5,03/04
+Aston Villa,4,56,6,03/04
+Charlton,0,53,7,03/04
+Bolton,-8,53,8,03/04
+Fulham,6,52,9,03/04
+Birmingham,-5,50,10,03/04
+Middlesbrough,-8,48,11,03/04
+Southampton,-1,47,12,03/04
+Portsmouth,-7,45,13,03/04
+Spurs,-10,45,14,03/04
+Blackburn,-8,44,15,03/04
+Man City,1,41,16,03/04
+Everton,-12,39,17,03/04
+Leicester,-17,33,18,03/04
+Leeds,-39,33,19,03/04
+Wolves,-39,33,20,03/04
+Man Utd,40,83,1,02/03
+Arsenal,43,78,2,02/03
+Newcastle,15,69,3,02/03
+Chelsea,30,67,4,02/03
+Liverpool,20,64,5,02/03
+Blackburn,9,60,6,02/03
+Everton,-1,59,7,02/03
+Southampton,-3,52,8,02/03
+Man City,-7,51,9,02/03
+Spurs,-11,50,10,02/03
+Middlesbrough,4,49,11,02/03
+Charlton,-11,49,12,02/03
+Birmingham,-8,48,13,02/03
+Fulham,-9,48,14,02/03
+Leeds,1,47,15,02/03
+Aston Villa,-5,45,16,02/03
+Bolton,-10,44,17,02/03
+West Ham,-17,42,18,02/03
+West Brom,-36,26,19,02/03
+Sunderland,-44,19,20,02/03
+Arsenal,43,87,1,01/02
+Liverpool,37,80,2,01/02
+Man Utd,42,77,3,01/02
+Newcastle,22,71,4,01/02
+Leeds,16,66,5,01/02
+Chelsea,28,64,6,01/02
+West Ham,-9,53,7,01/02
+Aston Villa,-1,50,8,01/02
+Spurs,-4,50,9,01/02
+Blackburn,4,46,10,01/02
+Southampton,-8,45,11,01/02
+Middlesbrough,-12,45,12,01/02
+Fulham,-8,44,13,01/02
+Charlton,-11,44,14,01/02
+Everton,-12,43,15,01/02
+Bolton,-18,40,16,01/02
+Sunderland,-22,40,17,01/02
+Ipswich,-23,36,18,01/02
+Derby,-30,30,19,01/02
+Leicester,-34,28,20,01/02
+Man Utd,48,80,1,00/01
+Arsenal,25,70,2,00/01
+Liverpool,32,69,3,00/01
+Leeds,21,68,4,00/01
+Ipswich,15,66,5,00/01
+Chelsea,23,61,6,00/01
+Sunderland,5,57,7,00/01
+Aston Villa,3,54,8,00/01
+Charlton,-7,52,9,00/01
+Southampton,-8,52,10,00/01
+Newcastle,-6,51,11,00/01
+Spurs,-7,49,12,00/01
+Leicester,-12,48,13,00/01
+Middlesbrough,0,42,14,00/01
+West Ham,-5,42,15,00/01
+Everton,-14,42,16,00/01
+Derby,-22,42,17,00/01
+Man City,-24,34,18,00/01
+Coventry,-27,34,19,00/01
+Bradford,-40,26,20,00/01
+Man Utd,52,91,1,99/00
+Arsenal,30,73,2,99/00
+Leeds,15,69,3,99/00
+Liverpool,21,67,4,99/00
+Chelsea,19,65,5,99/00
+Aston Villa,11,58,6,99/00
+Sunderland,1,58,7,99/00
+Leicester,0,55,8,99/00
+West Ham,-1,55,9,99/00
+Spurs,8,53,10,99/00
+Newcastle,9,52,11,99/00
+Middlesbrough,-6,52,12,99/00
+Everton,10,50,13,99/00
+Coventry,-7,44,14,99/00
+Southampton,-17,44,15,99/00
+Derby,-13,38,16,99/00
+Bradford,-30,36,17,99/00
+Wimbledon FC,-28,33,18,99/00
+Sheff Wed,-32,31,19,99/00
+Watford,-42,24,20,99/00
+Man Utd,43,79,1,98/99
+Arsenal,42,78,2,98/99
+Chelsea,27,75,3,98/99
+Leeds,28,67,4,98/99
+West Ham,-7,57,5,98/99
+Aston Villa,5,55,6,98/99
+Liverpool,19,54,7,98/99
+Derby,-5,52,8,98/99
+Middlesbrough,-6,51,9,98/99
+Leicester,-6,49,10,98/99
+Spurs,-3,47,11,98/99
+Sheff Wed,-1,46,12,98/99
+Newcastle,-6,46,13,98/99
+Everton,-5,43,14,98/99
+Coventry,-12,42,15,98/99
+Wimbledon FC,-23,42,16,98/99
+Southampton,-27,41,17,98/99
+Charlton,-15,36,18,98/99
+Blackburn,-14,35,19,98/99
+Nottm Forest,-34,30,20,98/99
+Arsenal,35,78,1,97/98
+Man Utd,47,77,2,97/98
+Liverpool,26,65,3,97/98
+Chelsea,28,63,4,97/98
+Leeds,11,59,5,97/98
+Blackburn,5,58,6,97/98
+Aston Villa,1,57,7,97/98
+West Ham,-1,56,8,97/98
+Derby,3,55,9,97/98
+Leicester,10,53,10,97/98
+Coventry,2,52,11,97/98
+Southampton,-5,48,12,97/98
+Newcastle,-9,44,13,97/98
+Spurs,-12,44,14,97/98
+Sheff Wed,-15,44,15,97/98
+Everton,-15,40,16,97/98
+Bolton,-20,40,17,97/98
+Barnsley FC,-45,35,18,97/98
+Crystal Palace,-34,33,19,97/98
+Wimbledon FC,-7,21,20,97/98
