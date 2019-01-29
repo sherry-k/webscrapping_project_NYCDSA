@@ -178,7 +178,7 @@ expenditiure_df %>%
   ggplot(aes(x = perc_of_league_spent*100, y = as.numeric(as.character(Position)))) +
   geom_point(aes(color = Goal_Difference)) + facet_wrap(. ~ Season) +
   theme(legend.position="bottom", legend.text = element_text(size = 6), 
-        legend.title = element_text(size = 6), legend.key.size = unit(.5, "cm")) + 
+        legend.title = element_text(size = 10), legend.key.size = unit(.5, "cm")) + 
   xlab(label = "Club transfer expenditure as % of total league expenditure") + 
   ylab(label = "League Position")+ scale_y_reverse( lim=c(20,1)) +
   scale_x_continuous(limits = c(0, 20), breaks = c(0, 10, 20)) +
@@ -193,7 +193,7 @@ expenditiure_df %>%
   ggplot(aes(x = perc_of_league_spent*100, y = as.numeric(as.character(Position)))) +
   geom_point(aes(color = Goal_Difference)) + facet_wrap(. ~ Season) +
   theme(legend.position="bottom", legend.text = element_text(size = 6), 
-        legend.title = element_text(size = 6), legend.key.size = unit(.5, "cm")) + 
+        legend.title = element_text(size = 10), legend.key.size = unit(.5, "cm")) + 
   xlab(label = "Club transfer expenditure as % of total league expenditure") + 
   ylab(label = "League Position")+
   ggtitle("Expenditure vs League Position (2007 - 2012)") +
@@ -210,7 +210,7 @@ expenditiure_df %>%
   geom_point(aes(color = Goal_Difference))  + 
   facet_wrap(. ~ Season) +
   theme(legend.position="bottom", legend.text = element_text(size = 6), 
-        legend.title = element_text(size = 6), legend.key.size = unit(.5, "cm")) + 
+        legend.title = element_text(size = 10), legend.key.size = unit(.5, "cm")) + 
   xlab(label = "Club transfer expenditure as % of total league expenditure") + 
   ylab(label = "League Position")+
   ggtitle("Expenditure vs League Position (2013 - 2018)") +
@@ -309,13 +309,14 @@ merged_means
 merged_means %>%
   melt(Season)
 
-## Net spent for winners of the league
+## plotting spending for champions vs avg
 
 expenditure_winner_vs_avg = ggplot(first_placed_clubs, aes(x = Season, y  = League_avg)) + 
   geom_line(color = "blue") + geom_line(aes(y = Transfer_Expenditure), color = "red") +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black")) +
-  ggtitle("Expenditure: Winners vs League Avg") + xlab(label = "Season") + ylab(label = "£ (Millions)")
+  ggtitle("Expenditure: Winners vs League Avg") + 
+  xlab(label = "Season") + ylab(label = "£ (Millions)")
 expenditure_winner_vs_avg
 
 ## top spending teams 
@@ -359,7 +360,8 @@ club_spent_5y
 
 ## over 20 years
 head(club_spent_20y, n = 8) %>%
-  ggplot(aes(x = reorder(Club, -Expenditure), y = Expenditure)) + geom_bar(aes(fill = Club), stat="identity") +
+  ggplot(aes(x = reorder(Club, -Expenditure), y = Expenditure)) + 
+  geom_bar(aes(fill = Club), stat="identity") +
   theme(panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"),
         legend.position="none")+
@@ -370,7 +372,8 @@ club_spent_20y_graph
 
 # 1998-2007
 head(club_spent_98_07, n = 8) %>%
-  ggplot(aes(x = reorder(Club, -Expenditure), y = Expenditure)) + geom_bar(aes(fill = Club), stat="identity") +
+  ggplot(aes(x = reorder(Club, -Expenditure), y = Expenditure)) + 
+  geom_bar(aes(fill = Club), stat="identity") +
   theme(panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"),
         legend.position="none")+
@@ -578,10 +581,29 @@ merge(x = club_1st_5y, y = club_2nd_5y, quotes = FALSE, by = "Club", all= TRUE) 
   scale_y_continuous(breaks = c(0, 1, 2, 3, 4)) -> champ_sec_graph_5y
 champ_sec_graph_5y
 
+## histogram showing distribution of Clubs spending as a fraction of total league spending. outliers taken out
 Merged_table1 %>%
-  ggplot(aes(x = Transfer_Expenditure)) + geom_histogram()
-df1998to2018
-%>%
-  select(Season, League_Spent)%>%
   group_by(Season) %>%
-  summarize(Spent = mean(League_Spent)) 
+  mutate(Spent = mean(League_Spent)) %>%
+  ggplot(aes(x = (Transfer_Expenditure/Spent)*100)) + geom_histogram() +
+  theme(panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"))+
+  scale_fill_brewer(palette="Dark2") + 
+  xlab(label = "% of total league expenditure") + 
+  ggtitle("Distribution of club spending as % of total league expenditure (1998 - 2018)") +
+  scale_x_continuous(lim=c(0,20),breaks = c(0, 10, 20, 30)) -> spending_distribution_perc
+spending_distribution_perc
+
+## histogram showing distribution of Clubs spending as a fraction of total league spending
+Merged_table1 %>%
+  group_by(Season) %>%
+  ggplot(aes(x = (Transfer_Expenditure))) + geom_histogram() +
+  theme(panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"))+
+  scale_fill_brewer(palette="Dark2") + 
+  xlab(label = "£ (Millions)") + 
+  ggtitle("Distribution of club spending per season (1998 - 2018)") +
+  scale_x_continuous(lim=c(0,200)) -> spending_distribution
+spending_distribution
+
+Merged_table1%>%
+  group_by(Club) %>%
+  filter(Transfer_Expenditure > 200)
