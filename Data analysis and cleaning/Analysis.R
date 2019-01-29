@@ -578,4 +578,10 @@ merge(x = club_1st_5y, y = club_2nd_5y, quotes = FALSE, by = "Club", all= TRUE) 
   scale_y_continuous(breaks = c(0, 1, 2, 3, 4)) -> champ_sec_graph_5y
 champ_sec_graph_5y
 
-
+Merged_table1 %>%
+  ggplot(aes(x = Transfer_Expenditure)) + geom_histogram()
+df1998to2018
+%>%
+  select(Season, League_Spent)%>%
+  group_by(Season) %>%
+  summarize(Spent = mean(League_Spent)) 
